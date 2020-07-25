@@ -13,7 +13,7 @@ const SeasonDisplay = (props) => {
 
   return (
     <div>
-      {season === 'winter' ? 'Burr, It is chilly' : 'Lets hit the beach'}
+      <h1>{season === 'winter' ? 'Burr, It is chilly' : 'Lets hit the beach'}</h1>
     </div>
   );
 };
